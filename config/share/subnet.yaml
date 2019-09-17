@@ -1,0 +1,4 @@
+template_path: subnet.yaml
+parameters:
+  VpcId: !stack_output vpc.yaml::VpcId
+  CidrBlock: 10.0.0.0/24
